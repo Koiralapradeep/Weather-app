@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+  }
+  
+  body {
+    background-color:#dfdde8;
+    background-image: url("./weather.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .weather {
+    border: 1px solid #0003;
+    width: fit-content;
+    background-color:rgb(233, 227, 220);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px #0008;
+  }
+  .weather .location h2{
+    justify-content: right;
+  }
+  
+  .location {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 50px;
+  }
+  .temperature .value span{
+    font-size:70px;
+    color:#000;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    background-color:#000;
+    cursor: pointer;
+    color:#ccc;
+    
+  }
+  .value{
+  justify-content: space-between;
+  }
+  .time{
+    font-size: 15px;
+    color:black;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .humi{
+    position:absolute;
+    right:0;
+    bottom:0;
+  }
+  .count{
+    position:absolute;
+    right:0;
+    top:0;
+  }
+  .speed{
+    position:absolute;
+    left:0;
+    bottom:0;
+  }
+  .pressure{
+    position:absolute;
+    bottom:0;
+  }
+  .weather .i {
+    width:100px;
+  }
+  .dash{
+    color:antiquewhite;
+    font-size: 20px;
+    border: #000;
+  }
+  .dash{
+    color: antiquewhite;
+    font-size: 20px;
+  }
+  
+  
